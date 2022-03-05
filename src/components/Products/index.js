@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./data";
+
 import {
   ProductsContainer,
   ProductsHeading,
@@ -13,10 +13,10 @@ import {
   ProductButton,
 } from "./ProductsElmenets";
 
-export const Products = () => {
+export const Products = ({ Heading, data }) => {
   return (
     <ProductsContainer>
-      <ProductsHeading>Heading</ProductsHeading>
+      <ProductsHeading>{Heading}</ProductsHeading>
       <ProductWrapper>
         {data.map((product, index) => {
           return (
@@ -24,7 +24,8 @@ export const Products = () => {
               <ProductImg src={product.img} alt={product.alt} />
               <ProductInfo>
                 <ProductTItle>{product.name}</ProductTItle>
-                <ProductDesc>{product.desc}</ProductDesc>><ProductPrice>{product.price}</ProductPrice>
+                <ProductDesc>{product.desc}</ProductDesc>
+                <ProductPrice>{product.price}</ProductPrice>
                 <ProductButton>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>

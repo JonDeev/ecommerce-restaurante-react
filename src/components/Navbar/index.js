@@ -5,7 +5,7 @@ export const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>PIZA</NavLink>
+        <NavLink to='/'>PIZZA</NavLink>
         <NavIcon onClick={toggle}>
           <p>Menu</p>
           <Bars />
