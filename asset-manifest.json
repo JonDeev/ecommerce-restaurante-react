@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce-restaurante-react/static/css/main.31d6cfe0.css",
-    "main.js": "/ecommerce-restaurante-react/static/js/main.a08dca80.js",
+    "main.js": "/ecommerce-restaurante-react/static/js/main.6e3fc85d.js",
     "static/media/pizza-3.jpg": "/ecommerce-restaurante-react/static/media/pizza-3.f2f9b9a49128f877c57f.jpg",
     "static/media/featured3.jpg": "/ecommerce-restaurante-react/static/media/featured3.66d68644270582e9ce8d.jpg",
     "static/media/product-2.jpg": "/ecommerce-restaurante-react/static/media/product-2.4c066971ce4367c6e0bc.jpg",
@@ -11,10 +11,10 @@
     "static/media/product-3.jpg": "/ecommerce-restaurante-react/static/media/product-3.115cc32b63d9b7485e7e.jpg",
     "static/media/sweet-3.jpg": "/ecommerce-restaurante-react/static/media/sweet-3.badeecbe98eb1e099fce.jpg",
     "index.html": "/ecommerce-restaurante-react/index.html",
-    "main.a08dca80.js.map": "/ecommerce-restaurante-react/static/js/main.a08dca80.js.map"
+    "main.6e3fc85d.js.map": "/ecommerce-restaurante-react/static/js/main.6e3fc85d.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.a08dca80.js"
+    "static/js/main.6e3fc85d.js"
   ]
 }
