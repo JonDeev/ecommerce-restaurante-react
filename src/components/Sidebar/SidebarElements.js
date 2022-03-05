@@ -74,6 +74,7 @@ export const SidebarRouter = styled(Link)`
   font-size: 16px;
   outline: none;
   border: none;
+  border-radius: 15px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   text-decoration: none;

@@ -7,7 +7,7 @@ import {
   ProductCard,
   ProductImg,
   ProductInfo,
-  ProductTItle,
+  ProductTitle,
   ProductDesc,
   ProductPrice,
   ProductButton,
@@ -23,7 +23,7 @@ export const Products = ({ Heading, data }) => {
             <ProductCard key={index}>
               <ProductImg src={product.img} alt={product.alt} />
               <ProductInfo>
-                <ProductTItle>{product.name}</ProductTItle>
+                <ProductTitle>{product.name}</ProductTitle>
                 <ProductDesc>{product.desc}</ProductDesc>
                 <ProductPrice>{product.price}</ProductPrice>
                 <ProductButton>{product.button}</ProductButton>

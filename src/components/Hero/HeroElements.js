@@ -1,9 +1,8 @@
-import styled from 'styled-components';
-import ImgBg from '../../Images/pizza-3.jpg'
+import styled from "styled-components";
+import ImgBg from "../../Images/pizza-3.jpg";
 
 export const HeroContainer = styled.div`
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
-    url(${ImgBg});
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(${ImgBg});
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -16,24 +15,23 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroItems = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100vh;
-    max-height: 100%;
-    padding: 0 2rem;
-    width: 650px;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 1;
-    font-weight:bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  max-height: 100%;
+  padding: 0 2rem;
+  width: 650px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: bold;
 
-    @media screen and (max-width: 650px) {
-        width: 100%;
-    }
+  @media screen and (max-width: 650px) {
+    width: 100%;
+  }
 `;
-
 
 export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
@@ -51,6 +49,7 @@ export const HeroBtn = styled.button`
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
+  border-radius: 15px;
   background: #e31837;
   color: #fff;
   transition: 0.2s ease-out;
@@ -61,4 +60,3 @@ export const HeroBtn = styled.button`
     color: #000;
   }
 `;
-
